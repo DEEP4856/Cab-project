@@ -1,0 +1,207 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:1000px){
+    
+}
+
+/* Sidebar styles */
+@media (main-width:800px){
+    .navbar-brand{
+        padding: 2vh;
+        padding-left: 5vh;
+    }
+
+    .nav_logo{
+        height: 100px;
+        width: 100px ;
+    }
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Hide sidebar initially */
+    width: 250px;
+    height: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: left 0.3s ease-in-out;
+    z-index: 1060;
+}
+
+/* Move sidebar into view when active */
+.sidebar.active {
+    left: 0;
+}
+
+/* Styling for caption beside logo */
+.navbar-caption, .sidebar-caption {
+    font-weight: bold;
+    color:rgb(2, 2, 104); /* Customize this color as needed */
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-caption{
+   
+    font-size: 22px;
+
+}
+
+/* Hide phone button on small screens */
+.phone-link {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 15px 15px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.phone-link:hover {
+    background-color: blue;
+    color: white;
+}
+
+.list-unstyled  li{
+    padding: 2vh;
+    font-weight: bold;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+/* Footer Section Styling */
+.footer-section {
+    background-color: #050550; /* Deep blue background */
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
+
+/* Brand Section Styling */
+.footer-brand {
+    max-width: 250px;
+}
+
+.footer-logo {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.brand-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.brand-description {
+    font-size: 0.9em;
+    color: #cccccc;
+}
+
+/* Quick Links Styling */
+.footer-links h5,
+.footer-contact h5 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.footer-links ul,
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffdd57; /* Highlight on hover */
+}
+
+/* Contact Info Styling */
+.footer-contact ul {
+    padding-left: 0;
+}
+
+.footer-contact i {
+    margin-right: 8px;
+}
+
+/* Social Media Links Styling */
+.footer-social {
+    margin-top: 10px;
+}
+
+.social-link {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #ffdd57; /* Highlight color on hover */
+}
+
+/* Copyright Section */
+.footer-copyright {
+    background-color: #000000; /* Black background */
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-brand, .footer-links, .footer-contact {
+        max-width: none;
+    }
+
+    .footer-social {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* footer */

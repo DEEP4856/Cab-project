@@ -1,0 +1,564 @@
+/* Enquiry Box Styles */
+.enquiry-box {
+    position: absolute; /* Position below the navbar */
+    /* top: 80px; Adjust this value to match the navbar height */
+    right: 0; /* Align to right edge */
+    width: 500px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border-radius: 5px 5px 0 0; /* Rounded top corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1050;
+ 
+    
+}
+
+@media (min-width:800px){
+.enquiry-box{
+    top: 80px;
+    /* z-index: 1050; */
+}
+
+
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .enquiry-box {
+        position: relative; /* Non-fixed on small screens */
+        width: 100%; /* Full-width */
+        margin-top: 20px; /* Add some spacing from content */
+    }
+
+    .phone-link {
+        display: none;
+    }
+}
+
+
+
+
+.enquiry-box {
+    background-color: #007bff; /* Blue outer box */
+    border-radius: 0px; /* Rounded corners for the blue box */
+    padding: 10px; /* Padding inside the blue box */
+    overflow: hidden; 
+    padding: 3.4%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.enquiry-header {
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, #007bff, #0056b3); /* Gradient background */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+.enquiry-form {
+    background-color: white; /* White background for the form */
+    padding: 25px;
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow */
+}
+
+.enquiry-form label {
+    color: #333;
+    font-weight: 500;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 45%;
+}
+
+.form-control {
+    border-radius: 10px; /* Rounded corners for input fields */
+    border: 1px solid #ced4da;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    border-color: #007bff;
+}
+
+.btn {
+    background-color: #00b33c;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #00408d;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+    }
+}
+
+/* enquiry box */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Left content area for the banner */
+.left-content {
+    width: 75%; /* Take up most of the screen */
+    height: 100vh; /* Full height */
+    overflow-y: auto; /* Allow scrolling on left content */
+    float: left; /* Align to the left */
+}
+
+.full-width-banner {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Enquiry Form Styles */
+.enquiry-form {
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black; /* Ensure label text is visible */
+    max-height: 550px; /* Limit height */
+    overflow-y: auto; /* Enable internal scrolling */
+}
+
+/* Banner Adjustment */
+.full-width-banner {
+    width: 100%;
+    max-height: 444px; /* Match the height of the enquiry box */
+    object-fit: cover; /* Ensure it maintains aspect ratio */
+}
+
+/* Left content area for the banner */
+.left-content {
+    width: 100%; /* Take up most of the screen */
+    height: 75vh; /* Full height */
+    overflow-y: auto; /* Allow scrolling on left content */
+    float: left; /* Align to the left */
+    margin-bottom: 2vh;
+}
+
+@media (max-width:900px){
+    .left-content{
+        height: 50vh;
+    }
+}
+
+
+/* Banner Adjustment */
+.full-width-banner {
+    width: 100%;
+    height: calc(100vh - 70px); /* Adjust to the height of the left content */
+    object-fit: cover; /* Maintain the aspect ratio */
+}
+
+/* caption */
+.caption-below-navbar{
+    margin-top: 5vh;
+    color: green;
+
+}
+
+@media (max-width:600px){
+    .caption-below-navbar{
+        text-align: center;
+    }
+}
+
+.caption-below-navbar h2{
+    font-weight: bold;
+    
+}
+
+.caption-below-navbar p{
+    font-weight: bold;
+    margin-top: 2vh;
+    color: black;
+}
+
+
+
+
+
+
+
+/* our taxi for hire */
+.view-all-btn{
+    background-color: transparent;
+    color: #333;
+    border: 1.5px solid blue;
+}
+
+.view-all-btn:hover{
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+}
+
+.taxi-cap{
+    color: #041a35;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.caption-container {
+    margin-top: 10px; /* Reduced margin */
+    padding: 0 15px; /* Add padding for some spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caption-container h4{
+    font-weight: bold;
+   color:rgb(5, 109, 5) !important;
+   font-size: xx-large;
+}
+
+.swiper-container-below-banner-enquiry {
+    margin-top: 2vh;
+    padding: 0 15px; /* Ensure the swiper is aligned with the container */
+    overflow: hidden; /* Hide overflowing content to prevent horizontal scrolling */
+}
+
+.swiper-slide {
+    flex-shrink: 0 !important;  /* Prevent slides from shrinking */
+    width: calc((100% - 30px) / 3); /* 3 cards per row */
+    box-sizing: border-box; /* Ensure padding and margin are included in width */
+}
+
+/* Make sure cards look like Bootstrap cards */
+.card {
+    border: 1px solid rgb(10, 10, 124); /* Blue border */
+    border-radius: 17px; /* Rounded corners */
+    overflow: hidden; /* Round the inner elements */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .swiper-slide {
+        width: 100% !important; /* 1 card at a time on small screens */
+    }
+
+    .caption-container {
+        flex-direction: column !important;  /* Stack items vertically */
+        text-align: center; /* Center-align for better aesthetics */
+    }
+
+    .caption-container h4, .caption-container .btn {
+        margin-bottom: 10px !important; /* Space between stacked items */
+    }
+}
+
+
+
+
+/* our taxi for hire */
+
+
+
+
+
+
+
+
+
+/* about */
+/* About Section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+/* Container with Image and Content */
+.about-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+/* Image Styling */
+.about-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* Content Styling */
+.about-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+/* Caption Styling */
+.about-caption {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(4, 99, 4);
+    margin-bottom: 10px;
+    animation: fadeInDown 1s ease-out;
+}
+
+/* Description Styling */
+.about-description {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+/* Know More Button */
+.know-more-btn {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.know-more-btn:hover {
+    background-color: transparent;
+    border: 1.5px solid green;
+}
+
+/* Fade Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-caption {
+        font-size: 1.5em;
+    }
+
+    .about-description {
+        font-size: 0.9em;
+    }
+}
+
+/* about */
+
+
+
+
+/* wp-icon */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25D366; /* WhatsApp green color */
+    padding: 15px;
+    border-radius: 46%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-float i {
+    color: white; /* Icon color */
+    font-size: 30px; /* Icon size */
+}
+
+.whatsapp-float:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* wp-icon */
+
+
+
+
+
+/* move to top */
+/* Move to Top Button Styling */
+.move-to-top {
+    position: fixed;
+    left: 20px; /* Position it to the left of the screen */
+    bottom: 20px; /* Position it at the bottom of the screen */
+    background-color: green; /* Green background color */
+    padding: 15px;
+    border-radius: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    cursor: pointer;
+    display: none; /* Hidden by default, will appear when scrolled */
+  }
+  
+  .move-to-top a {
+    color: white;
+  
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .move-to-top:hover {
+    background-color: #0c256b; /* Darker green on hover */
+  }
+  
+  /* Show the button when scrolled */
+  .show {
+    display: block;
+  }
+  
+/* move to top */
+
+
+
+
+
+/* testimonials */
+/* Testimonials Section */
+.testimonials-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.caption-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.view-all-btn {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.swiper-container-testimonials {
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+}
+
+/* Star Rating Styling */
+.star-rating i {
+    font-size: 1.2em;
+    margin-right: 2px;
+}
+
+.review-caption {
+    font-size: 1.1em;
+    color: #343a40;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.review-description {
+    font-size: 0.9em;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.review-username {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #495057;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .swiper-slide {
+        width: 100%;
+    }
+    
+    .testimonial-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .caption-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* testimonials */
