@@ -205,3 +205,72 @@ body, html {
 }
 
 /* footer */
+
+
+
+
+
+
+
+
+
+
+
+/* wp-icon */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25D366; /* WhatsApp green color */
+    padding: 15px;
+    border-radius: 46%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-float i {
+    color: white; /* Icon color */
+    font-size: 30px; /* Icon size */
+}
+
+.whatsapp-float:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* wp-icon */
+
+
+
+
+/* move to top */
+/* Move to Top Button Styling */
+.move-to-top {
+    position: fixed;
+    left: 20px; /* Position it to the left of the screen */
+    bottom: 20px; /* Position it at the bottom of the screen */
+    background-color: green; /* Green background color */
+    padding: 15px;
+    border-radius: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    cursor: pointer;
+    display: none; /* Hidden by default, will appear when scrolled */
+  }
+  
+  .move-to-top a {
+    color: white;
+  
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .move-to-top:hover {
+    background-color: #0c256b; /* Darker green on hover */
+  }
+  
+  /* Show the button when scrolled */
+  .show {
+    display: block;
+  }
+  
+/* move to top */
