@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="gallry.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="nav-footer.css">
     <link rel="stylesheet" href="taxi.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -55,10 +55,10 @@
     </div>
    
     <ul class="list-unstyled">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#">Cab Services</a></li>
-        <li><a href="#">Testimonials</a></li>
+        <li><a href="cabservice.html">Cab Services</a></li>
+        <li><a href="testimonial.html">Testimonials</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
     <div class="ml-auto  ">
@@ -79,43 +79,45 @@
     <div class="enquiry-header">
         <h5>Enquiry</h5>
     </div>
-    <form class="enquiry-form p-3">
+    <form class="enquiry-form p-3" action="https://api.web3forms.com/submit" method="POST" >
+        <input type="hidden" name="access_key" value="4e68c669-8871-4de5-a833-af01f74f5d92">
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                <input type="text" class="form-control" name="name" placeholder="Enter your name">
             </div>
             <div class="form-group col-md-6">
                 <label for="pickup">Pick Up Location</label>
-                <input type="text" class="form-control" id="pickup" placeholder="Enter pick up location">
+                <input type="text" class="form-control" name="pickup" placeholder="Enter pick up location">
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="destination">Destination</label>
-                <input type="text" class="form-control" id="destination" placeholder="Enter destination">
+                <input type="text" class="form-control" name="destination" placeholder="Enter destination">
             </div>
             <div class="form-group col-md-6">
                 <label for="date">Date</label>
-                <input type="date" class="form-control" id="date">
+                <input type="date" class="form-control" name="date">
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="time">Time</label>
-                <input type="time" class="form-control" id="time">
+                <input type="time" class="form-control" name="time">
             </div>
             <div class="form-group col-md-6">
                 <label for="phone">Phone</label>
-                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                <input type="tel" class="form-control" name="phone" placeholder="Enter your phone number">
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-12">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                <input type="email" class="form-control" name="email" placeholder="Enter your email">
             </div>
         </div>
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
         <button type="submit" class="btn btn-primary btn-block">Submit Now</button>
     </form>
 </div>
@@ -125,14 +127,14 @@
 
 
 <!-- Caption Below Navbar -->
- <section>
+ <section class="left-content">
 <div class="caption-below-navbar">
     <h2>Book A City Taxi To Your Destination</h2>
     <p>Your reliable and trusted travel partner</p>
     
     <!-- Carousel Below Caption -->
-    <div class="left-content">
-        <img src="https://cdn.pixabay.com/photo/2016/07/13/20/39/taxi-1515420_640.jpg" alt="Banner Image" class="full-width-banner">
+    <div class="">
+        <img src="https://cdn.pixabay.com/photo/2016/07/13/20/39/taxi-1515420_640.jpg" alt="Banner Image" class="full-width-banner" width="500" height="600">
        
     </div>
 </div>
