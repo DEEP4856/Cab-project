@@ -130,6 +130,11 @@ body, html {
     font-size: 1.1em;
     margin-bottom: 10px;
 }
+.footer-links h3,
+.footer-contact h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
 
 .footer-links ul,
 .footer-contact ul {

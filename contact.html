@@ -14,72 +14,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="nav-footer.css">
+    <link rel="stylesheet" href="contact.css">
     
     <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .navbar {
-            background-color: #007bff;
-        }
-        .navbar-brand, .navbar-nav .nav-link {
-            color: white !important;
-        }
-        .navbar-brand:hover, .navbar-nav .nav-link:hover {
-            color: #f8f9fa !important;
-        }
-        .sec_padd {
-            padding: 40px 20px;
-            margin-left: 15px; /* Added left margin for main content */
-        }
-        .norml_hdng h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-        .footer {
-            background-color: #007bff;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        .drvr-img img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        .no-padding {
-            padding: 0; /* Remove padding */
-            margin: 0; /* Remove margin */
-        }
-        .contact-btn .btn {
-            background-color: #00b33c;
-            color: white;
-            border: none;
-            padding: 15px;
-            font-size: 1em;
-            font-weight: bolder;
-            border-radius: 15px;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .contact-btn .btn:hover {
-            background-color: #00408d;
-            transform: translateY(-2px);
-        }
-
-        .contact-btn .btn:active {
-            transform: translateY(0);
-        }
-
-        @media (max-width: 768px) {
-            .phone-link {
-                display: none;
-            }
-        }
-        
+       
     </style>
 </head>
 <body>
@@ -114,8 +52,13 @@
     <ul class="list-unstyled">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
+<<<<<<< HEAD
         <li><a href="#">Cab Services</a></li>
         <li><a href="tes">Testimonials</a></li>
+=======
+        <li><a href="cabservice.html">Cab Services</a></li>
+        <li><a href="testimonial.html">Testimonials</a></li>
+>>>>>>> 478a106b74fd8314ade494eab5db42c6c14a92ad
         <li><a href="contact.html">Contact</a></li>
     </ul>
     <div class="ml-auto contact-btn">
@@ -125,138 +68,7 @@
     </div>
 </div>
 
-
-<style>
-    .container-contact {
-            display: flex;
-            gap: 20px;
-            padding: 0 20px;
-            height: 580px;
-        }
-        /* Scrollable section styling */
-        .scroll-section {
-            width: 45%;
-            height: auto;
-            overflow-y: auto;
-            scrollbar-width: none; /* For Firefox */
-            -ms-overflow-style: none;  /* IE and Edge */
-            border-radius: 10px;
-            padding: 20px;
-            background-color: #f8f9fa;
-        }
-        .scroll-section::-webkit-scrollbar {
-            display: none; /* Hides scrollbar for Chrome, Safari, Opera */
-        }
-
-        .contact-info {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
-            margin: auto;
-        }
-        .contact-items {
-            text-align: center;
-            flex: 1;
-        }
-        .contact-items i {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    font-size: 24px;
-    color: rgb(24, 95, 145);
-    background-color: #2889a73d;
-    border-radius: 50%;
-    margin-bottom: 15px; /* Adjusted to reduce gap */
-}
-        .contact-items h5 {
-            font-size: 16px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 5px;
-        }
-        .contact-items p {
-            font-size: 14px;
-            color: #666;
-        }
-        /* Map container */
-        .map-info {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
-            margin: auto;
-            height: 400px;
-        }
-        .map-container {
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        /* Contact form styling */
-        .contact-form {
-            width: 50%;
-            background-color: #003366;
-            color: white;
-            padding: 20px;
-            border-radius: none;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        .contact-form .form-content{
-            background-color: #ffffff;
-            color: rgb(6, 6, 6);
-            margin: 20px;
-            padding: 10px;
-            border-radius: 20px;
-            text-align: center;
-        }
-        .contact-form form{
-            padding: 20px;
-        }
-        .contact-form h2 {
-            color: #0a3184;
-            
-            font-weight: bold;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-        }
-        .contact-form button {
-            width: 50%;
-            padding: 10px;
-            background-color: #2aa7e6;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-        .contact-form button:hover{
-            background-color: #2ae685;
-        }
-        /* Responsive layout for smaller screens */
-        @media(max-width: 786px) {
-            .container-contact, .contact-info{
-                flex-direction: column;
-                height: auto;
-            }
-            .scroll-section, .contact-form, .contact-items {
-                width: 100%;
-            }
-        }
-    </style>
+<!-- constct -->
 <div class="container-contact">
     <!-- Scrollable Section -->
     <div class="scroll-section col-sm-7 pl-0 pr-0">
@@ -264,19 +76,19 @@
             <!-- Contact Item: Call Us -->
             <div class="contact-items">
                 <i class="fas fa-phone"></i>
-                <h5>Call Us</h5>
+                <h1>Call Us</h1>
                 <p>+919113816378</p>
             </div>
             <!-- Contact Item: Address -->
             <div class="contact-items">
                 <i class="fas fa-map-marker-alt"></i>
-                <h5>Address</h5>
+                <h2>Address</h2>
                 <p> Vijay Lakshmi Layout,<br>1st main 1st cross Abbigere,<br> Post: Chikkabanavara , bangalore</p>
             </div>
             <!-- Contact Item: Email -->
             <div class="contact-items">
                 <i class="fas fa-envelope"></i>
-                <h5>Email</h5>
+                <h3>Email</h3>
                 <p>jesustoursandtravels07@gmail.com</p>
             </div>
         </div>
@@ -295,19 +107,24 @@
     <!-- Contact Form Section -->
     <div class="contact-form col-sm-5  pos-relative">
         <div class="form-content">
-            <h2>Get in Touch</h2>
-            <form action="#">
-                <input type="text" placeholder="Enter Name" required>
-                <input type="email" placeholder="Enter Email" required>
-                <input type="tel" placeholder="Enter Contact Number" required>
-                <textarea placeholder="Write Your Query" rows="3" required></textarea>
+            <h4>Get in Touch</h4>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="4e68c669-8871-4de5-a833-af01f74f5d92">
+                <input type="text" placeholder="Enter Name" name="name" required >
+                <input type="email" placeholder="Enter Email" name="email" required>
+                <input type="tel" placeholder="Enter Contact Number" name="contact" required>
+                <textarea placeholder="Write Your Query" rows="3" name="query" required></textarea>
                 <!-- Simple Captcha -->
-                <input type="text" placeholder="Enter Captcha" required>
+               
                 <button type="submit">Send Now</button>
             </form>
         </div>
     </div>
 </div>
+<!-- contact -->
+
+
+
 
 
 <!-- watspp icon -->

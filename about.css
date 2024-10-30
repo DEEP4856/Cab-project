@@ -1,0 +1,77 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #007bff;
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #f8f9fa !important;
+}
+.sec_padd {
+    padding: 40px 20px;
+    margin-left: 15px; /* Added left margin for main content */
+}
+.norml_hdng h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0c256b;
+    font-weight: bold;
+}
+.footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.drvr-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+.no-padding {
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+.contact-btn .btn {
+    background-color: #00b33c;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-btn .btn:hover {
+    background-color: #00408d;
+    transform: translateY(-2px);
+}
+
+.contact-btn .btn:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .phone-link {
+        display: none;
+    }
+    .container-fluid {
+        width: 95vw;
+        padding: 5px 20px;
+    }
+    .right-part{
+        padding: 0 50px;
+    }
+}
+.left-part {
+    background-color: #ebd8fb5f;
+}
+
+
